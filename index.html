@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment Gateway 💳</title>
+    <!-- Link the css file🔗  -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- ↩ The large container that holds all the items ↩ -->
+    <div class="container">
+      <form action="">
+        <div class="row">
+          <!-- column - 1 -->
+          <div class="column">
+            <!-- TITLE -->
+            <h3 class="title">Billing Address</h3>
+            <!-- All iuputs-boxs -->
+            <div class="iuput-box">
+              <span>full Name:</span>
+              <input type="text" placeholder="jacob Aiden" />
+            </div>
+            <div class="iuput-box">
+              <span>Email:</span>
+              <input type="email" placeholder="example@example.com" />
+            </div>
+            <div class="iuput-box">
+              <span>Address:</span>
+              <input type="text" placeholder="Room - Street - Locality" />
+            </div>
+            <div class="iuput-box">
+              <span>City:</span>
+              <input type="text" placeholder="Berlin" />
+            </div>
+            <!--  -->
+            <div class="flex">
+              <div class="iuput-box">
+                <span>State:</span>
+                <input type="text" placeholder="Germany" />
+              </div>
+              <div class="iuput-box">
+                <span>Zip Code:</span>
+                <input type="number" placeholder="123 456" />
+              </div>
+            </div>
+          </div>
+
+          <!-- column - 2 -->
+          <div class="column">
+            <h3 class="title">Payment</h3>
+            <div class="iuput-box">
+              <span>Cards Accepted :</span>
+              <img src="imges/img.png" alt="" />
+            </div>
+            <div class="iuput-box">
+              <span>Name On Card:</span>
+              <input type="text" placeholder="Mr. Jacob Aiden" />
+            </div>
+            <div class="iuput-box">
+              <span>Credit Card Number :</span>
+              <input type="number" placeholder="111 222 333 444" />
+            </div>
+            <div class="iuput-box">
+              <span>Exp. Month :</span>
+              <input type="text" placeholder="August" />
+            </div>
+
+            <div class="flex">
+              <div class="iuput-box">
+                <span>Exp. Year :</span>
+                <input type="number" placeholder="2024" />
+              </div>
+              <div class="iuput-box">
+                <span>CVV :</span>
+                <input type="number" placeholder="123" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
